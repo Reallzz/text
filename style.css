@@ -1,0 +1,89 @@
+@media (min-width: 1200px) {
+   
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .block{
+        width: 50%;
+        
+    }
+  
+}
+@media (max-width: 480px) {
+    .sidebar, .content{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .block{
+        width: 50%;
+    }
+    .contacts, .info{
+        margin: 0;
+        float: none;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 767px) {
+    .block, .contacts, .info{
+        width: 100vw;
+        height: 100vh;
+    }
+    .sidebar{
+        width: 40%;
+    }
+    .content{
+        width: 60%;
+    }
+}
+
+#header {
+    width: 100%;
+    background-color: burlywood;
+    height: 130px;
+    margin: 0;
+    text-align: center;
+    clear: both;
+}
+
+#content {
+    width: 80%;
+    background-color: rgb(180, 188, 196);
+    height: 500px;
+    float: right;
+    text-align: center;
+}
+
+#sidebar {
+    width: 20%;
+    background-color: rgb(16, 223, 143);
+    height: 500px;
+    float: left;
+    text-align: center;
+}
+#footer {
+    width: 100%;
+    background-color: rgb(125, 125, 228);
+    height: 100px;
+    margin: 0;
+    text-align: center;
+    clear: both;
+}
+.block {
+    width: 25vw;
+    height: 8vh;
+    margin: 0;
+    background-color: grey;
+    border: rgb(95, 90, 90) 1px solid;
+}
+#blocks {
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    margin: 0;
+}
